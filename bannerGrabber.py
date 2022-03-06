@@ -61,7 +61,7 @@ def printer_and_file_writer(grabbed_parse, user_ip, port, searchsploit_process):
     # Changes the format to be numerical day, month, year_24h hour, minute
     title_timestamp = now.strftime("%d%m%Y_%H%M")
 
-    file_path = "/home/hackerman/PycharmProjects/module8/"
+    file_path = "/home/hackerman/PycharmProjects/"
 
     # File path and filename can be altered as user sees fit
     with open(file_path + "bannergrab_" + title_timestamp + extension, "a") as file_writer:
